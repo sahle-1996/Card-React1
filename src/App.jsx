@@ -1,6 +1,7 @@
 import htmlImage from './assets/HTML.jpeg';
 import cssImage from './assets/CSS.jpeg';
 import jsImage from './assets/JavaScript.jpeg';
+import CardList from './CardList.jsx';
 
 // Data for the cards
 const cardData = [
@@ -20,3 +21,14 @@ const cardData = [
     description: 'Master JavaScript with these amazing tutorials.',
   },
 ];
+
+function App() {
+  return (
+    <div>
+      <h1 style={{ textAlign: 'center', margin: '20px 0' }}>My React Cards</h1>
+      <CardList cards={cardData} /> {/* Pass cardData to the CardList */}
+    </div>
+  );
+}
+
+export default App;
