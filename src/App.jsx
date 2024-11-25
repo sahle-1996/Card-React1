@@ -4,17 +4,17 @@ import './index.css';
 // Data for the cards
 const cardData = [
   {
-    image: './assets/HTML.jpeg', 
+    image: 'HTML.jpeg', 
     title: 'HTML Course',
     description: 'Some of the best HTML courses available.',
   },
   {
-    image: './assets/CSS.jpeg', 
+    image: 'CSS.jpeg', 
     title: 'CSS Course',
     description: 'Learn styling with CSS in these great courses.',
   },
   {
-    image: './assets/JavaScript.jpeg', 
+    image: './JavaScript.jpeg', 
     title: 'JavaScript Course',
     description: 'Master JavaScript with these amazing tutorials.',
   },
