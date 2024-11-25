@@ -4,7 +4,7 @@ import './index.css';
 // Data for the cards
 const cardData = [
   {
-    image: './src/assets/HTML.jpeg', 
+    image: './assets/HTML.jpeg', 
     title: 'HTML Course',
     description: 'Some of the best HTML courses available.',
   },
