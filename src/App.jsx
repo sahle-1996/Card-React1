@@ -1,32 +1,22 @@
-import CardList from './CardList.jsx'; 
-import './index.css'; 
+import htmlImage from './assets/HTML.jpeg';
+import cssImage from './assets/CSS.jpeg';
+import jsImage from './assets/JavaScript.jpeg';
 
 // Data for the cards
 const cardData = [
   {
-    image: 'HTML.jpeg', 
+    image: htmlImage, // Use imported images
     title: 'HTML Course',
     description: 'Some of the best HTML courses available.',
   },
   {
-    image: 'CSS.jpeg', 
+    image: cssImage, // Use imported images
     title: 'CSS Course',
     description: 'Learn styling with CSS in these great courses.',
   },
   {
-    image: './JavaScript.jpeg', 
+    image: jsImage, // Use imported images
     title: 'JavaScript Course',
     description: 'Master JavaScript with these amazing tutorials.',
   },
 ];
-
-function App() {
-  return (
-    <div>
-      <h1 style={{ textAlign: 'center', margin: '20px 0' }}>My React Cards</h1>
-      <CardList cards={cardData} /> 
-    </div>
-  );
-}
-
-export default App;
